@@ -1,66 +1,19 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Projecte de la Cuenta (Compte Laravel)
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+![Laravel](https://github.com/Och8s/compte-laravel/actions/workflows/laravel.yml/badge.svg)
 
-## About Laravel
+## Enunciats
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- **Crea un Repositori a GitHub**: Inicialitzeu un nou repositori a GitHub per al projecte de la Cuenta que vam desenvolupar anteriorment utilitzant TDD. Assegureu-vos que el repositori sigui públic per a que tots puguem veure i compartir els nostres progressos.
+  
+- **Puja el Projecte a GitHub**: Una vegada creat el repositori, puja el codi font del projecte. Això inclou tots els fitxers necessaris per a que el projecte es pugui executar, així com els jocs de proves unitàries que vam escriure seguint la metodologia TDD.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- **Configura GitHub Actions**: L'objectiu aquí és automatitzar l'execució dels tests cada vegada que feu un push al repositori. Per a això, hauríeu de crear un *GitHub Action*. GitHub ofereix plantilles per facilitar aquest procés. Busqueu la plantilla que millor s'adapte al llenguatge i entorn de desenvolupament que estem utilitzant (en aquest cas, Laravel).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/3bad7570-01a5-40de-bc25-c3c400400236/48e6b4ac-01ec-4e39-875f-bdab6fc78d6c/355eb0bd-5678-424f-9c9a-1665570a9c3c.png)
 
-## Learning Laravel
+- **Executa el Workflow**: Una vegada hàgiu configurat el vostre GitHub Action, feu un push al repositori per desencadenar l'execució del workflow. Això hauria d'executar automàticament els tests unitaris que vau escriure, demostrant així la funcionalitat del vostre codi.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- **Modifica el Workflow per Laravel**: Finalment, assegureu-vos que el workflow estigui actualitzat segons els requisits actuals de Laravel. Això pot incloure l'actualització de la versió de PHP o qualsevol altra dependència específica que Laravel requereixi per funcionar correctament.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
